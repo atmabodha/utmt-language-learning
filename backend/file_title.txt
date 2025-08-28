@@ -1,0 +1,69 @@
+Full Transcription:
+Despite the challenges, he managed to finish the project ahead of the deadline.
+
+Word-by-Word Breakdown:
+Word: Despite
+  Start Time: 760 ms
+  End Time: 944 ms
+  Confidence: 0.99953
+
+Word: the
+  Start Time: 944 ms
+  End Time: 1128 ms
+  Confidence: 0.99952
+
+Word: challenges,
+  Start Time: 1128 ms
+  End Time: 1624 ms
+  Confidence: 0.90439
+
+Word: he
+  Start Time: 1657 ms
+  End Time: 1881 ms
+  Confidence: 0.9997
+
+Word: managed
+  Start Time: 1913 ms
+  End Time: 2153 ms
+  Confidence: 0.99988
+
+Word: to
+  Start Time: 2169 ms
+  End Time: 2273 ms
+  Confidence: 0.99997
+
+Word: finish
+  Start Time: 2289 ms
+  End Time: 2481 ms
+  Confidence: 0.98187
+
+Word: the
+  Start Time: 2513 ms
+  End Time: 2657 ms
+  Confidence: 0.99975
+
+Word: project
+  Start Time: 2681 ms
+  End Time: 2937 ms
+  Confidence: 0.99996
+
+Word: ahead
+  Start Time: 3001 ms
+  End Time: 3201 ms
+  Confidence: 1.0
+
+Word: of
+  Start Time: 3233 ms
+  End Time: 3353 ms
+  Confidence: 0.99981
+
+Word: the
+  Start Time: 3369 ms
+  End Time: 3521 ms
+  Confidence: 0.99799
+
+Word: deadline.
+  Start Time: 3553 ms
+  End Time: 3745 ms
+  Confidence: 0.98237
+

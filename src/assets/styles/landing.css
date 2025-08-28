@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+body {
+    margin: 0;
+    font-family: 'Happy Monkey', sans-serif;
+    background-color: #FEF6F4;
+    color: #333;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.containers {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+
+
+.header .logo {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.header .logo i {
+    margin-right: 10px;
+}
+
+.header nav a {
+    font-family :'Nunito';
+    margin: 0 15px;
+    text-decoration: none;
+    color: #666;
+    font-weight: 400;
+}
+
+.header nav a:hover {
+    color: #000;
+}
+
+.header .join-now {
+    background-color: rgb(248, 104, 41);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px;
+}
+
+.main-content .text-content {
+    max-width: 600px;
+}
+
+.main-content .text-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.main-content .text-content p {
+    font-size: 18px;
+    color: #999;
+    margin: 20px 0;
+}
+
+.main-content .text-content .buttons a {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.main-content .text-content .buttons .get-started {
+    background-color: rgb(248, 104, 41);
+    color: #fff;
+}
+
+.main-content .text-content .buttons .unlock-voice {
+    color: #5A8DEE;
+}
+
+.main-content .image-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Additional CSS for the second section */
+.mission-container {
+    padding: 100px 0px;
+    text-align: center;
+    background-color: #b0c4c4;
+    color: #333;
+}
+
+.mission-container .title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.mission-container .mission {
+    font-size: 48px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.mission-container .description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.mission-container .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mission-container .card {
+    background-color: #fff;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.mission-container .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.mission-container .card-text {
+    font-size: 24px;
+    color: #333;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #FEF6F4;
+    font-family: "Nunito";
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.footer div {
+    flex: 1;
+}
+
+.footer div img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer div p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.footer div h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.footer div ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer div ul li {
+    margin-bottom: 5px;
+}
+
+.footer div ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer div ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .logo img {
+    margin-bottom: 10px;
+}
+
+.footer .logo p {
+    text-align: center;
+}
